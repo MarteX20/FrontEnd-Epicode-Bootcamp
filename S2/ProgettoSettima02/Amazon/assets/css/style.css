@@ -1,0 +1,160 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAEDED;
+}
+
+/* Stile Header */
+
+#header{
+    background-color: rgb(19, 25, 33);
+}
+
+#header img{
+    width: 10%;
+    padding: 0.4em;
+}
+
+/* Stile Navigazione */
+
+#nav{
+    display: inline-block;
+    background-color: rgb(35, 47, 62);
+    width: 100%;
+    margin-bottom: 0.8em;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    background-color: rgb(35, 47, 62);
+    max-width: 100%;
+}
+
+/* Contenitore Centrale cha va dal header fino al footer (esclusi) */
+
+#container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+/* Stile Pulsante Arancione */
+
+#pulsanteArancione{
+    background-color: #F56600;
+    width: 100%;
+    padding: 0.6em;
+    border: transparent;
+    color: white;
+    font-size: 1em;
+}
+
+/* Barra Holday Gift */
+
+#holidayGift{
+    background-image: url(../img/bg-image.png);
+    background-size: cover;
+}
+
+/* Stile Cards */
+#containerCards{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#cards{
+    background-color: white;
+    text-align: center;
+}
+
+#cards p{
+    padding: 0.8em;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+#cards a{
+    padding: 0.8em;
+    display: inline-block;
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.9em;
+}
+
+#cards img{
+    border-radius: 1.2em;
+    width: 15%;
+    height: 23em;
+    object-fit: cover;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    margin: 2em;
+    min-width: 10%;
+}
+
+/* Stile articoli */
+
+.articolo img{
+    width: 100%;
+    border: transparent;
+}
+
+.articolo a{
+    padding: 0.9em;
+    text-decoration: none;
+    color: #007185;
+}
+.articolo p{
+    margin: 0 auto;
+}
+
+/* Footer */
+
+#backTop{
+    margin: 0 auto;
+    background-color: #007185;
+    width: 100%;
+    background-color: rgb(35, 47, 62);
+    text-align: center;
+    padding: 0.4em;
+}
+
+#footer{
+    text-align: center;
+}
+
+#logoFooter{
+    background-color: rgb(19, 25, 33);
+    padding: 2em;
+    max-width: 100%;
+}
+
+#footer img{
+    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+}
+
+
+/* classi generali */
+
+.center{
+    text-align: center;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.leftP{
+    text-align: left;
+}
