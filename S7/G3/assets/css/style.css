@@ -1,0 +1,15 @@
+.fitt {
+  aspect-ratio: 1/1.5;
+  -o-object-fit: fit;
+     object-fit: fit;
+}
+
+.butt {
+  margin-top: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}/*# sourceMappingURL=style.css.map */

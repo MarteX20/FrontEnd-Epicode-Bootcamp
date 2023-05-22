@@ -1,0 +1,17 @@
+$cover: cover;
+$fit:fit;
+
+.fitt{
+    aspect-ratio: 1/1.5;
+    object-fit: $fit;
+}
+
+.butt{
+    margin-top: auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

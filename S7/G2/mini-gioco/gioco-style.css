@@ -1,0 +1,9 @@
+html{
+    cursor: url(./mouse.png);
+}
+
+#cat{
+    width: 80px;
+    height: 80px;
+    transition: .2s;
+}
