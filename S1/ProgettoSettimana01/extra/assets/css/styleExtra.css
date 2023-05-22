@@ -1,0 +1,184 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 0.8em;
+}
+
+
+/*               Header               */
+header{
+    background-color: black;
+    width: 100%;
+}
+
+header img{
+    width: 10%;
+    padding: 1em;
+    text-align: left;
+}
+
+/*               Nav Main               */
+
+
+nav{
+    background-size: cover;
+    padding: 4em;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
+
+#nav{
+    background-image: url('./../images/banner.jpg')
+}
+
+#pulsanteTop a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #f04c2f;
+    padding: 0.6em 1.3em;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+#containerInner{
+    max-width: 45%;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+#notebook{
+    display: inline-block;
+    width: 45%;
+    margin: 0 auto;
+}
+
+#notebook img{
+    margin: 0;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+/*              Articoli              */
+
+.articolo{
+    padding: 1em;
+    margin-bottom: 0.6em;
+}
+
+.articolo p{
+    margin: 0;
+}
+
+
+#testimonianze{
+    background-color: #e22d0e;
+    padding: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+.smaller{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#testimonianze h2{
+    color: white;
+}
+
+#testimonianze h3{
+    color: white;
+    margin: 0;
+}
+
+
+/*              Cards              */
+
+#cantainerCard{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+.card img{
+    width: 100%;
+    height: 261px;
+    text-align: center;
+}
+
+.card div {
+
+}
+.card{
+    border: 1px solid #dee1e3;
+    width: 30%;
+    border-radius: 0px 0px 5px 5px;
+    display: inline-block;
+    margin: 0.4em;
+    text-align: center;
+}
+
+#footer{
+    background-color: #25a2c3;
+    padding: 1em;
+    text-align: center;
+}
+
+
+#footer h1{
+    color: white;
+}
+
+
+
+#footer a{
+    display: block;
+    color: white;
+}
+
+#footer address{
+    display: block;
+    color: white;
+}
+
+hr{
+    width: 50%;
+    color: white;
+}
+
+#footer a{
+    display: inline-block;
+    color: white;
+}
+
+#footer p{
+    color: white;
+    font-size: 0.8em;
+}

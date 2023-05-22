@@ -1,0 +1,141 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 0.8em;
+}
+
+/*               Header               */
+header{
+    background-color: black;
+    max-width: 100%;
+}
+
+header img{
+    max-width: 50%;
+    padding: 1em;
+}
+
+/*               Nav Main               */
+
+nav{
+    background-size: cover;
+    padding: 1.6em;
+    margin-bottom: 1em;
+}
+
+#nav{
+    background-image: url('./../images/banner.jpg')
+
+}
+
+#pulsanteTop a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #f04c2f;
+    padding: 0.6em 1.3em;
+    border-radius: 4px;
+    
+}
+
+/*              Articoli              */
+
+.articolo{
+    padding: 1em;
+    margin-bottom: 0.6em;
+}
+
+.articolo p{
+    margin: 0;
+}
+
+#notebook img{
+    border-radius: 50%;
+    padding: 1em;
+    width: 50%;
+}
+
+#testimonianze{
+    background-color: #e22d0e;
+    padding: 1.2em;
+    color: white;
+}
+
+.smaller{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+#testimonianze h2{
+    color: white;
+}
+
+#testimonianze h3{
+    color: white;
+    margin: 0;
+}
+
+/*              Cards              */
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    border: 1px solid #dee1e3;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#footer{
+    background-color: #25a2c3;
+    padding: 1em;
+}
+
+#footer h1{
+    color: white;
+}
+
+#footer a{
+    display: block;
+    color: white;
+}
+
+#footer address{
+    display: block;
+    color: white;
+}
+
+hr{
+    width: 50%;
+    color: white;
+}
+
+#footer a{
+    display: inline-block;
+    color: white;
+}
+
+#footer p{
+    color: white;
+    font-size: 0.8em;
+}

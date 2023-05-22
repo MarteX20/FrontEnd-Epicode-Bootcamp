@@ -1,0 +1,159 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-image: url('../img/sfondo.png');
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+article, table{
+    width: 100%;
+}
+
+#video iframe{
+    width: 100%;
+    border-radius: 1.3em;
+}
+/* HEADER */
+
+header{
+    text-align: center;
+    margin: 1.2em;
+    color: white;
+}
+
+header a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+header li{
+    list-style: none;
+}
+
+/*  Container del header  */
+.containerTop{
+    background-color: #00DBDE;
+    background-image: linear-gradient(180deg, #00DBDE 0%, #0f00ff 100%);
+    padding: 1.8em;
+    margin: 0 auto;
+}
+
+#logo{
+    max-width: 40%;
+}
+
+/* MAIN */
+
+main{
+    background-color: white;
+    text-align: left;
+    margin: 1.2em;
+    padding: 1em;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+#infoPost{
+    font-size: 1.4em;
+    color: rgb(63, 52, 52);
+}
+
+
+#viola{
+    color: rgb(133, 5, 122);
+}
+
+.elementiLista{
+    background-color: rgb(177, 177, 177);
+    border-radius: 5px;
+}
+/* TABELLE */
+
+th{
+    background-color: #0f00ff;
+    padding: 0.8em;
+}
+
+td{
+    padding: 0.6em;
+}
+
+
+tr:nth-child(odd) {
+    background: rgb(136, 136, 136);
+}
+
+#pulsante{
+    background-color: #00DBDE;
+}
+
+.novita{
+    background-color: grey;
+    text-align: center;
+}
+
+.novita p{
+    text-align: left;
+    padding: 0.8em;
+}
+
+#novita{
+    text-align: left;
+    padding: 0.8em;
+}
+
+#novita input{
+    border-bottom: #00DBDE 1px dashed;
+}
+
+.articoli{
+    background-color: grey;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.articoli p{
+    padding-left: 1em;
+}
+
+.articoli a{
+    padding: 1em;
+    display: inline-block;
+}
+
+#data{
+    text-align: right;
+    padding: 1em;
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+@media screen and (min-width: 768px) {
+    header li{
+        display: inline-block;
+    }
+
+    table{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
