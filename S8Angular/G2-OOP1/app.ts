@@ -24,8 +24,8 @@ class MotherAccount extends Account {
     }
 }
 
-// Utilizzo delle classi
 
+// Utilizzo delle classi
 const sonAccount = new SonAccount();
 const motherAccount = new MotherAccount();
 
