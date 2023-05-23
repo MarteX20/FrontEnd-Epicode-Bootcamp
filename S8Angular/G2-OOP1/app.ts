@@ -20,17 +20,16 @@ class SonAccount extends Account {
 class MotherAccount extends Account {
     addInterest() {
         const interest = this.balance * 0.1;
-        this.balance += interest;
+        this.balance -= interest;
     }
 }
-
 
 // Utilizzo delle classi
 const sonAccount = new SonAccount();
 const motherAccount = new MotherAccount();
 
-sonAccount.deposit(100);
-sonAccount.withdraw(30);
+sonAccount.deposit(1000);
+sonAccount.withdraw(150);
 
 motherAccount.deposit(500);
 motherAccount.withdraw(50);
