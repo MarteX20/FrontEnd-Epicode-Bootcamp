@@ -1,13 +1,40 @@
-class Persona {
-    nome: string;
-    cognome: string;
+class Account {
+    balance: number = 0;
 
-    constructor(nome: string, cognome: string) {
-        this.nome = nome;
-        this.cognome = cognome;
+    deposit(amount: number) {
+        this.balance += amount;
     }
 
-    saluta() {
-        console.log(`Ciao, sono ${this.nome} ${this.cognome}.`);
+    withdraw(amount: number) {
+        if (amount <= this.balance) {
+            this.balance -= amount;
+        } else {
+            console.log("Saldo insufficiente.");
+        }
     }
 }
+
+class SonAccount extends Account {
+}
+
+class MotherAccount extends Account {
+    addInterest() {
+        const interest = this.balance * 0.1;
+        this.balance += interest;
+    }
+}
+
+// Utilizzo delle classi
+
+const sonAccount = new SonAccount();
+const motherAccount = new MotherAccount();
+
+sonAccount.deposit(100);
+sonAccount.withdraw(30);
+
+motherAccount.deposit(500);
+motherAccount.withdraw(50);
+motherAccount.addInterest();
+
+console.log("Saldo conto del figlio: ", sonAccount.balance);
+console.log("Saldo conto della madre: ", motherAccount.balance);
