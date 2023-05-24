@@ -1,8 +1,9 @@
-var estratto = Math.floor(Math.random() * 100 + 1);
+"use strict";
+const estratto = Math.floor(Math.random() * 100 + 1);
 console.log(estratto);
-var p1 = Math.floor(Math.random() * 100 + 1);
+const p1 = Math.floor(Math.random() * 100 + 1);
 console.log('Il numero del Giocatore 1 è ', p1);
-var p2 = Math.floor(Math.random() * 100 + 1);
+const p2 = Math.floor(Math.random() * 100 + 1);
 console.log('Il numero del Giocatore 2 è ', p2);
 switch (true) {
     case p1 === estratto:
