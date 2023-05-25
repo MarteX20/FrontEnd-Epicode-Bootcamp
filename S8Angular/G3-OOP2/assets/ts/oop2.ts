@@ -25,7 +25,6 @@ class App {
     }
 }
 
-
 const Lav1 = new App(20000, 0.67)
 
 console.log('Lavoratore 1 guadagna al netto', Lav1.getRedditoAnnuoNetto());
