@@ -1,3 +1,4 @@
+"use strict";
 class App {
     constructor(_ral, _codredd) {
         this.codredd = _codredd;
