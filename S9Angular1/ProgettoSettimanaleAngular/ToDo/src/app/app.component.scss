@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+}
+
+.fatto{
+  text-decoration: line-through;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.overlay{
+  content: 'Clicca per segnare come "completato';
+}
+
+.eff {
+  transition: border-left-width 0.1s ease-in !important;
+  transition: border-top-width 0.1s ease-in !important;
+  transition: border-bottom-width 0.1s ease-in !important;
+}
+
+.eff:hover {
+  /* Espansione del bordo destro durante l'hover */
+  // border-right-width: 3px !important;
+  border-left-width: 3px !important;
+  border-top-width: 3px !important;
+  border-bottom-width: 3px !important;
+}
