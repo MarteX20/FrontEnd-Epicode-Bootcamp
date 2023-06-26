@@ -42,6 +42,8 @@ public class Main {
         
         System.out.println("Lista input ordinata: " + concatOrdinato);
         System.out.println("Lista input inversa: " + concatInverso);
+
+        System.out.println(Math.abs(-55)); //prova
     }
 
     public static int moltiplica(int x, int y) {
