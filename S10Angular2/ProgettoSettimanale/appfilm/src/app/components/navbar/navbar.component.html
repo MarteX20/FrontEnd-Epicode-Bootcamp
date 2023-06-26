@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary pt-0">
+    <div class="container-fluid bg-light p-2">
+        <a class="navbar-brand fw-light bg-dark rounded-2 text-white p-2 pt-0 pb-0" [routerLink]="['/']">HD-Rezka</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/profilo']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Profilo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/listafilm']">Lista Film</a>
+                </li>
+            </ul>
+            <div>
+                <button class="btn btn-primary me-2" type="button" [routerLink]="['/login']">Login</button>
+                <button class="btn btn-warning" type="button" [routerLink]="['/register']">Registrati</button>
+            </div>
+        </div>
+    </div>
+</nav>
