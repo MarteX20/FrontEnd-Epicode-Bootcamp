@@ -1,0 +1,41 @@
+<form [formGroup]="superheroForm">
+  <div class="form-group">
+    <label for="name">Name *</label>
+    <input type="text" class="form-control" id="name" formControlName="name">
+    <div *ngIf="superheroForm.get('name')?.invalid && superheroForm.get('name')?.touched" class="text-danger">
+      Name is required.
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="alterEgo">Alter Ego *</label>
+    <input type="text" class="form-control" id="alterEgo" required>
+        <div *ngIf="superheroForm.get('alterEgo')?.invalid && superheroForm.get('alterEgo')?.touched" class="text-danger">
+          alterEgo is required.
+        </div>
+  </div>
+  <div class="form-group">
+    <label for="power">Power *</label>
+    <select class="form-control" id="power" required>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="enemy">Enemy (max 10 characters)</label>
+    <input type="text" class="form-control" id="enemy" maxlength="10">
+  </div>
+  <div class="form-group">
+    <label for="planet">Planet *</label>
+    <input type="text" class="form-control" id="planet" required minlength="5">
+        <div *ngIf="superheroForm.get('planet')?.invalid && superheroForm.get('planet')?.touched" class="text-danger">
+          planet is required.
+        </div>
+  </div>
+  <div class="form-group">
+    <label for="weakness">Weakness</label>
+    <input type="text" class="form-control" id="weakness">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
