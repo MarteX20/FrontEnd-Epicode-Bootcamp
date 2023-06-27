@@ -1,7 +1,9 @@
 package es2;
 
+import es2.Sim.Chiamata;
+
 public class Main {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         Sim sim = new Sim("1234567890");
 
         // Aggiungi alcune chiamate di esempio
@@ -15,4 +17,4 @@ public class Main {
         // Stampa i dati della SIM
         sim.stampaDatiSIM();
     }
-	}
+}
