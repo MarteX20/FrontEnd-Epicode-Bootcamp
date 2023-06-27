@@ -17,4 +17,3 @@ public class Rettangolo {
 		return 2 * (larghezza + altezza);
 	}
 }	
-

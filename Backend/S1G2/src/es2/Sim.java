@@ -3,7 +3,6 @@ package es2;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Sim {
     public String numeroTelefono;
     public double credito;
@@ -24,4 +23,5 @@ public class Sim {
             System.out.println("- Numero chiamato: " + chiamata.getNumeroChiamato());
             System.out.println("  Durata: " + chiamata.getDurata() + " minuti");
         }
+    }
 }

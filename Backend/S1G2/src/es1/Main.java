@@ -39,4 +39,5 @@ public class Main {
         System.out.println("Somma delle aree: " + sommaAree);
         System.out.println("Somma dei perimetri: " + sommaPerimetri);
     }
+    
 }
