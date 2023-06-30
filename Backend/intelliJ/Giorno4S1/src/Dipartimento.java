@@ -1,3 +1,3 @@
-public enum Dipertimento {
+public enum Dipartimento {
         PRODUZIONE, AMMINISTRAZIONE, VENDITE
 }

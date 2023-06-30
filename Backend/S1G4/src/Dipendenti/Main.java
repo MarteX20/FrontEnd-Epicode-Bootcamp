@@ -1,19 +1,17 @@
 package Dipendenti;
 
+import Dipendenti.livello.Livello;
+
 public class Main {
 	public static void main(String[] args) {
-
-		Dipendente manuel = new Dipendente(1, Dipartimento.PRODUZIONE);
+		
+		Dipendente manuel = new Dipendente(1, 1500, 45, Livello.IMPIEGATO, Dipartimento.VENDITE);
 		manuel.stampaDatiDipendente();
-		manuel.stipendio(1500);
 
 		Dipendente luca = new Dipendente(2, 1500, 40, Livello.IMPIEGATO, Dipartimento.AMMINISTRAZIONE);
 		luca.stampaDatiDipendente();
 
 		Dipendente batman = new Dipendente(3, Dipartimento.VENDITE);
-		batman.setImportoOrarioStraordinario(50);
-		batman.promuovi();
-		batman.stampaDatiDipendente();
 		batman.stampaDatiDipendente();
 	}
 
@@ -86,10 +84,6 @@ public class Main {
 		public static double calcolaPaga(Dipendente dipendente, int oreStraordinario) {
 			return dipendente.stipendio + (oreStraordinario * dipendente.importoOrarioStraordinario);
 		}
-	}
-
-	enum Livello {
-		OPERAIO, IMPIEGATO, QUADRO, DIRIGENTE
 	}
 
 	enum Dipartimento {

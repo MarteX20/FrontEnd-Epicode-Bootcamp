@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum Livello {
+public enum Livello {
+    OPERAIO, IMPIEGATO, QUADRO, DIRIGENTE
 }
